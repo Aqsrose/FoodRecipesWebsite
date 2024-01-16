@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SignUp>
+  <user>
+    <id>1272f219-89a5-4406-8b64-e46529e76b76</id>
+    <username>dani</username>
+    <email>dani@gmail.com</email>
+    <password>112233</password>
+    <imagePath>D:\SEMESTER WORK\7th Semester\Visual Programming(c#)\FoodRecipesWebsite\FoodRecipesWebsite\UserImages\1272f219-89a5-4406-8b64-e46529e76b76_20240115010830202.jpg</imagePath>
+  </user>
+  <user>
+    <username>Aqsaa</username>
+    <email>aqsaaa@gmail.com</email>
+    <password>1234</password>
+    <profileImage>UserImages/d0768978-faa9-482f-ac10-2b9d9391f143.jpg</profileImage>
+  </user>
+  <user>
+    <username>ali</username>
+    <email>ali@gmail.com</email>
+    <password>11223344</password>
+    <profileImage>UserImages/04e91f1b-c38f-4b50-aa70-e9b3bbd393ab.jpg</profileImage>
+  </user>
+  <user>
+    <username>Alii</username>
+    <email>ali@gmail.com</email>
+    <password>1234</password>
+    <profileImage>UserImages/99431c97-f89c-46b0-aa42-3c35e91bbaec.jpg</profileImage>
+  </user>
+</SignUp>

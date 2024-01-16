@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Recipes>
+  <Recipe>
+    <RecipeId>1</RecipeId>
+    <UploaderUsername>Aqsaaaa</UploaderUsername>
+    <Image>UserImages/86c971a3-e789-4569-8af3-9bda98b65f8c.jpg</Image>
+    <Title>whatever</Title>
+    <Category>tes</Category>
+    <Description>cdsfedf</Description>
+  </Recipe>
+  <Recipe>
+    <RecipeId>2</RecipeId>
+    <UploaderUsername>Alii</UploaderUsername>
+    <Image>UserImages/cca458e3-4c5e-44e5-88e9-de7db45dc2bf.jpg</Image>
+    <Title>whatever</Title>
+    <Category>test</Category>
+    <Description>dbjhdsa cUYF</Description>
+  </Recipe>
+  <Recipe>
+    <RecipeId>3</RecipeId>
+    <UploaderUsername>Aqsaa</UploaderUsername>
+    <Image>UserImages/d4ac7fbc-0473-457e-b949-837588658393.jpg</Image>
+    <Title>whatever</Title>
+    <Category>test</Category>
+    <Description>h</Description>
+  </Recipe>
+</Recipes>
