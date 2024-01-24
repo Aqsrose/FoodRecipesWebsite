@@ -113,11 +113,11 @@
             <p>Username</p>
             <asp:TextBox ID="Username" runat="server" type="text" ValidationGroup="SignUp" placeholder="Enter Username" onkeyup="main()"></asp:TextBox>
             <div class="Message">
-            <asp:RequiredFieldValidator CssClass="Message" ID="UsernameValidator" runat="server" ControlToValidate="Username" Text="*" ForeColor="Red" ValidationGroup="SignUp"></asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator  ID="UsernameValidator" runat="server" ControlToValidate="Username" Text="*" ForeColor="Red" ValidationGroup="SignUp"></asp:RequiredFieldValidator>
             </div>
             <p>Email</p>
             <div class="Message">
-             <asp:RequiredFieldValidator CssClass="Message" ID="EmailValidator" runat="server" ControlToValidate="Email" Text="*" ForeColor="Red" ValidationGroup="SignUp"></asp:RequiredFieldValidator>
+             <asp:RequiredFieldValidator  ID="EmailValidator" runat="server" ControlToValidate="Email" Text="*" ForeColor="Red" ValidationGroup="SignUp"></asp:RequiredFieldValidator>
             </div>
             <asp:TextBox ID="Email" runat="server" type="email" placeholder="Enter Email" ValidationGroup="SignUp" onkeyup="main()"></asp:TextBox>
             <div class="Message">
@@ -126,17 +126,17 @@
             <p>Password</p>
             <asp:TextBox ID="Password" runat="server" type="password" onkeyup="main()" placeholder="Enter Password" ValidationGroup="SignUp"></asp:TextBox>
             <div class="Message"> 
-            <asp:RequiredFieldValidator CssClass="Message" ID="PasswordValidator" runat="server" ControlToValidate="Password" Text="*" ForeColor="Red" ValidationGroup="SignUp"></asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator  ID="PasswordValidator" runat="server" ControlToValidate="Password" Text="*" ForeColor="Red" ValidationGroup="SignUp"></asp:RequiredFieldValidator>
             </div>
             <p>Confirm Password</p>
             <asp:TextBox ID="cpassword" runat="server" type="password" onkeyup="main()" placeholder="Re-enter Password"></asp:TextBox>
             <div class="Message">
-            <asp:RequiredFieldValidator CssClass="Message" ID="ConfirmPasswordValidator" runat="server" ControlToValidate="cpassword" Text="*" ForeColor="Red" ValidationGroup="SignUp"></asp:RequiredFieldValidator>
-            <asp:CompareValidator CssClass="Message" ID="PasswordMatchValidator" runat="server" ControlToValidate="cpassword" ControlToCompare="Password" Text="Passwords do not match" ForeColor="Red" ValidationGroup="SignUp"></asp:CompareValidator>            
+            <asp:RequiredFieldValidator  ID="ConfirmPasswordValidator" runat="server" ControlToValidate="cpassword" Text="*" ForeColor="Red" ValidationGroup="SignUp"></asp:RequiredFieldValidator>
+            <asp:CompareValidator  ID="PasswordMatchValidator" runat="server" ControlToValidate="cpassword" ControlToCompare="Password" Text="Passwords do not match" ForeColor="Red" ValidationGroup="SignUp"></asp:CompareValidator>            
             </div>
             <asp:FileUpload ID="IMAGE" runat="server" ValidationGroup="SignUp" />
             <div class="Message">
-            <asp:RequiredFieldValidator CssClass="Message" ID="ImageValidator" runat="server" ControlToValidate="IMAGE" Text="*"  ForeColor="Red" ValidationGroup="SignUp"></asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator  ID="ImageValidator" runat="server" ControlToValidate="IMAGE" Text="*"  ForeColor="Red" ValidationGroup="SignUp"></asp:RequiredFieldValidator>
             </div>
             <p>Choose profile image</p>
             <asp:Button ID="submitBtn" runat="server" class="btn" type="submit" Style="width: 100%; margin-top: .3em;" Text="SignUp" OnClick="submitBtn_Click" ValidationGroup="SignUp" />
